@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Merge sort algorithm used with array lists.
+// Complexity:
+// - Best: O(nlogn)
+// - Average: O(nlogn)
+// - Worst: O(nlogn)
 public class MergeSort {
     public static List<Integer> sort(List<Integer> list) {
         if (list.size() <= 1) {
